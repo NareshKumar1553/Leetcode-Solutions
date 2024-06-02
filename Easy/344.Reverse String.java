@@ -1,5 +1,5 @@
-//Write a function that reverses a string. The input string is given as an array of characters s.
-
+/*Write a function that reverses a string. The input string is given as an array of characters s.*/
+import java.util.*;
 class Solution {
     public void reverseString(char[] s) {
         char []a = Arrays.copyOf(s,s.length);
