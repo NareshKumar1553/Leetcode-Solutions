@@ -1,5 +1,5 @@
 class Solution:
-    def shuffle(self, nums: List[int], n: int) -> List[int]:
+    def shuffle(self, nums,n):
         c = []
         a = nums[0:n]
         b = nums[n:len(nums)]
