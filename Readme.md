@@ -5,7 +5,7 @@ This repository is a collection of my solutions to LeetCode problems, organized 
 ## Directory Structure
 
 The repository follows this structure:
-
+```bash
 leetcode-solutions/
 ├── Easy/
 │   ├── problem1_name/
@@ -23,7 +23,7 @@ leetcode-solutions/
 - Each problem folder is named descriptively, reflecting the problem title.
 - Within each problem folder, you can have separate files for Java (`problemX.java`) and Python (`problemX.py`) solutions.
 - An optional `Explanation.md` file can be included to provide a more detailed breakdown of the solution approach and thought process.
-
+```
 ## Contributing
 
 This repository is primarily for your personal learning, but feel free to share it publicly if you wish. Here are some ways to contribute:
