@@ -4,6 +4,8 @@ This repository is a collection of my solutions to LeetCode problems, organized 
 
 ## Directory Structure
 
+```bash
+
 The repository follows this structure:
 
 leetcode-solutions/
@@ -19,6 +21,8 @@ leetcode-solutions/
 │   └── ... (similar structure for Medium problems)
 └── Hard/
 └── ... (similar structure for Hard problems)
+
+```
 
 - Each problem folder is named descriptively, reflecting the problem title.
 - Within each problem folder, you can have separate files for Java (`problemX.java`) and Python (`problemX.py`) solutions.
