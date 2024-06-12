@@ -1,3 +1,5 @@
+![Beige Simple Elegant Personal LinkedIn Banner](https://github.com/NareshKumar1553/Leetcode-Solutions/assets/89716658/0735988e-ef75-40a3-8ff2-c17ce9350385)
+
 # LeetCode Solutions (Java & Python)
 
 This repository is a collection of my solutions to LeetCode problems, organized by difficulty level (Easy, Medium, Hard) for daily practice and learning. The code primarily uses Java and Python, focusing on brute force techniques to build a strong foundation for problem-solving.
@@ -67,6 +69,6 @@ Focus on code readability and maintainability by adding comments and using clear
 
         Happy LeetCoding!
 
-![Beige Simple Elegant Personal LinkedIn Banner](https://github.com/NareshKumar1553/Leetcode-Solutions/assets/89716658/0735988e-ef75-40a3-8ff2-c17ce9350385)
+
 
         
