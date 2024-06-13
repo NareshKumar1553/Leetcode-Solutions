@@ -8,5 +8,4 @@ class Solution {
            s[k] = a[i];
             k++;
         }
-    }
-}
+    }}
