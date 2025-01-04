@@ -23,6 +23,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             margin-bottom: 20px;
         }
 
@@ -35,10 +36,12 @@
             text-decoration: none;
             color: #333;
             transition: color 0.3s;
+            font-family: 'Courier New', Courier, monospace;
         }
 
         .heading:hover {
             color: #0056b3;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         .container {
             display: flex;
@@ -89,41 +92,139 @@
         .link:hover {
             color: #0056b3;
         }
+        .author-info {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .author-link {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .author-link:hover {
+            color: #ff0090;
+            font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+        }
+
+        .title {
+            flex: 1;
+        }
+
+        .profile {
+            flex: 1;
+            text-align: right;
+        }
+
+        .d-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pt-10 {
+            padding-top: 10px;
+        }
+
+        .me-3 {
+            margin-right: 1rem;
+        }
+
+        .mb-2 {
+            margin-bottom: 2px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .text-decoration-none {
+            text-decoration: none;
+        }
+
+        .fab {
+            font-size: 1.5rem;
+            color: #333;
+            transition: color 0.3s;
+        }
+
+        .fab:hover {
+            color: #007bff;
+        }
+
+        p{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+
+
     </style>
 </head>
 <body>
      <div class="header">
+        <div class="title">
             <a href="https://nareshkumar.zgen.tech" class="heading">
-                <h1>LeetCode Solutions (Java & Python)</h1>
-            </a>
-            <a href="https://github.com/NareshKumar1553">
-                <img src="https://github.com/favicon.ico" alt="Profile Icon" class="profile-icon">
+                <h1>Leetcode Solutions (Java & Python)</h1>
             </a>
         </div>
+        <div class="author-info">
+            <p>Solutions designed and coded by 
+                <a href="https://nareshkumar.zgen.tech" class="author-link">Naresh Kumar Saravanan</a>
+            </p>
+        </div>
+            
     </div>
     <div class="container">
         <div class="card">
             <h2>Easy Problems</h2>
-            <p>Sharpen your problem-solving skills with a collection of well-explained solutions to fundamental LeetCode problems.</p>
-            <a href="https://github.com/NareshKumar1553/Leetcode-Solutions/tree/main/Easy" class="link">
-            <p class="code-block">leetcode-solutions/Easy/...</p>
+                <p>Sharpen your problem-solving skills with a collection of well-explained solutions to fundamental LeetCode problems.</p>
+                    <a href="https://github.com/NareshKumar1553/Leetcode-Solutions/tree/main/Easy" class="link">
+                <p class="code-block">leetcode-solutions/Easy/...</p>
             </a>
         </div>
         <div class="card">
             <h2>Medium Problems</h2>
-            <p>Level up your coding abilities by tackling moderately challenging LeetCode problems with detailed explanations.</p>
-            <a href="https://github.com/NareshKumar1553/Leetcode-Solutions/tree/main/Medium" class="link">
-            <p class="code-block">leetcode-solutions/Medium/...</p>
+                <p>Level up your coding abilities by tackling moderately challenging LeetCode problems with detailed explanations.</p>
+                    <a href="https://github.com/NareshKumar1553/Leetcode-Solutions/tree/main/Medium" class="link">
+                <p class="code-block">leetcode-solutions/Medium/...</p>
             </a>
         </div>
         <div class="card">
             <h2>Hard Problems</h2>
-            <p>Challenge yourself with intricate LeetCode problems and explore various approaches to find optimal solutions.</p>
-            <a href="https://github.com/NareshKumar1553/Leetcode-Solutions/tree/main/Hard" class="link">
-            <p class="code-block">leetcode-solutions/Hard/...</p>
+                <p>Challenge yourself with intricate LeetCode problems and explore various approaches to find optimal solutions.</p>
+                    <a href="https://github.com/NareshKumar1553/Leetcode-Solutions/tree/main/Hard" class="link">
+                <p class="code-block">leetcode-solutions/Hard/...</p>
             </a>
         </div>
     </div>
-    <p class="footer">Happy LeetCoding!</p>
+    
+    <div class="footer">
+        <p>Designed and coded by <a href="https://nareshkumar.zgen.tech" class="link">Naresh Kumar Saravanan</a></p>
+        <p class="mb-2">Follow me:</p>
+        <div class="d-flex pt-10">
+            <a href="https://github.com/NareshKumar1553" class="me-3 text-decoration-none" style="padding: 5px;">
+                <i class="fab fa-github">
+                    <img src="https://github.com/favicon.ico" alt="github" style="width: 20px; height: 20px;"/>
+                </i>
+            </a>
+            <a href="https://x.com/NareshKumar1553" class="me-3 text-decoration-none" style="padding: 5px;">
+                <i class="fab fa-twitter">
+                    <img src="https://x.com/favicon.ico" alt="twitter" style="width: 20px; height: 20px;"/>
+                </i>
+            </a>
+            <a href="https://www.instagram.com/lucky_prince_nk/" class="me-3 text-decoration-none" style="padding: 5px;">
+                <i class="fab fa-instagram">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" alt="lucky-prince-nk" style="width: 20px; height: 20px;"/>
+                </i>
+            </a>
+            <a href="https://www.linkedin.com/in/naresh-kumar-s/" class="me-3 text-decoration-none" style="padding: 5px;">
+                <i class="fab fa-linkedin">
+                    <img src="https://www.linkedin.com/favicon.ico" alt="linkedin" style="width: 20px; height: 20px;"/>
+                </i>
+            </a>
+        </div>
+    </div>
+
+
 </body>
 </html>
